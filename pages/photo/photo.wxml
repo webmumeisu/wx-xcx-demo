@@ -1,0 +1,14 @@
+<!--pages/photo/photo.wxml-->
+<view class="container">
+  <view bindtap="changePhoto" class="update-img">
+  点击拍照上传图片
+  </view>
+  <view class="test-click mt-50" bindtap="click">
+    点击事件that
+  </view>
+  <view class="flex-box">
+    <view>第一个数据</view>
+    <view>第二个数据</view>
+    <view class="item-last">第三个数据</view>
+  </view>
+</view>

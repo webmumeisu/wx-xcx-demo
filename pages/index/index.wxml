@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper">
+    <swiper-item wx:for="{{imgUrl}}" wx:key="index">
+      <image class="swiper-img" src="{{item.photoUrl}}"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="ts-box">
+    <view class="alert-box">
+      <image class="img-alert" src="../../images/tixing.png"></image>
+    </view>
+    <view class="ts-text">最新将上线了五个新的旅行线路，敬请关注</view>
+    <image class="img-right" src="../../images/right.png"></image>
+  </view>
+
+  <view class="row-card">
+    <image src="../../images/card-yellow.png" alt=""></image>
+    <image src="../../images/card-black.png" alt=""></image>
+  </view>
+
+  <view class="title">精品出行</view>
+   
+  <view class="item-box">
+    <view class="item-left">
+      <view class="item-left-box">
+        <image src="../../images/pobu-1.jpg" class="item-img"></image>
+        <view>
+          <text>云南昆大丽6日高端游吃尽美食之旅</text>
+          <view>34000</view>
+          <view></view>
+        </view>
+      </view>
+    </view>
+    <view class="item-right"></view>
+  </view>
+
+  <!-- <mp-tabbar current="{{current}}" style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{tab}}" bindchange="tabChange"></mp-tabbar> -->
+</view>

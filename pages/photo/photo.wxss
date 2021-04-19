@@ -1,0 +1,35 @@
+/* pages/photo/photo.wxss */
+.container {
+  background-color: #fff;
+}
+.update-img {
+  width: 100%;
+  height: 150rpx;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.mt-50 {
+  margin-top: 50rpx;
+}
+.test-click {
+  width: 100%;
+  height: 150rpx;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+}
+.item-last {
+  /* margin-left: auto; */
+  /* flex: 1; */
+}

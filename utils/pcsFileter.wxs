@@ -1,0 +1,15 @@
+var getStatus = function(array, type) {
+  var dictValue 
+  array.map(function (item) {
+    // console.log(item.dictKey, type)
+    if (item.dictKey == type) {
+      console.log(item.dictValue)
+      dictValue = item.dictValue
+    }
+  })
+  return dictValue
+}
+
+module.exports = {
+  getStatus: getStatus,
+}
